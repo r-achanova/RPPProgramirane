@@ -25,5 +25,9 @@ namespace StatisticArray
         {
             Console.WriteLine(string.Join(", ",arr));
         }
+        public static int[] SortArr(int[] arr)
+        {
+            return arr.OrderBy(x=>x).ToArray();
+        }
     }
 }

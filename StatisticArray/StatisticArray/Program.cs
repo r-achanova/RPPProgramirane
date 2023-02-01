@@ -17,6 +17,8 @@ namespace StatisticArray
             Console.WriteLine(OptionsManager.MaxNum(arr));
             arr=OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
+            arr = OptionsManager.SortArr(arr);
+            OptionsManager.PrintArr(arr);
 
 
         }
