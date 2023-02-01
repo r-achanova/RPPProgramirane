@@ -16,7 +16,10 @@ namespace StatisticArray
         {
             return arr.Max();
         }
-
+        public static int CountEvens(int[] arr)
+        {
+            return arr.Count(x => x%2==0);
+        }
         public static int[] ReverseArr(int[] arr)
         {
             return arr.Reverse().ToArray();

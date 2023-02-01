@@ -22,8 +22,12 @@ namespace StatisticArray
             OptionsManager.PrintArr(arr);
 
             OptionsManager.PrintEvens(arr);
+
+            Console.WriteLine(OptionsManager.CountEvens(arr));
+
             OptionsManager.PrintOdds(arr);
             OptionsManager.PrintArr(arr);
+
 
 
         }
