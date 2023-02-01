@@ -18,6 +18,7 @@ namespace StatisticArray
             arr=OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
             OptionsManager.PrintEvens(arr);
+            Console.WriteLine(OptionsManager.CountEvens(arr));
 
 
         }
