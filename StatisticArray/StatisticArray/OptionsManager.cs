@@ -29,10 +29,22 @@ namespace StatisticArray
             Console.WriteLine(string.Join(", ",arr));
         }
 
+        public static int[] SortArr(int[] arr)
+        {
+            return arr.OrderBy(x => x).ToArray();
+        }
+
         public static void PrintEvens(int[] arr)
         {
             int[] result = arr.Where(x => x % 2 == 0).ToArray();
             Console.WriteLine(string.Join(" ", result));
+
+        }
+        public static void PrintOdds(int[] arr)
+        {
+            int[] result = arr.Where(x => x % 2 == 1).ToArray();
+            Console.WriteLine(string.Join(" ", result));
+
         }
     }
 }
