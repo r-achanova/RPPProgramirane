@@ -20,10 +20,16 @@ namespace StatisticArray
         {
             return arr.Count(x => x%2==0);
         }
+        public static int SumEvens(int[] arr)
+        {
+            return arr.Where(x => x % 2 == 0).Sum(); ;
+        }
+
         public static int[] ReverseArr(int[] arr)
         {
             return arr.Reverse().ToArray();
         }
+
         public static void PrintArr(int[]arr)
         {
             Console.WriteLine(string.Join(", ",arr));
@@ -40,6 +46,7 @@ namespace StatisticArray
             Console.WriteLine(string.Join(" ", result));
 
         }
+
         public static void PrintOdds(int[] arr)
         {
             int[] result = arr.Where(x => x % 2 == 1).ToArray();

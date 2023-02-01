@@ -13,20 +13,19 @@ namespace StatisticArray
                 arr[i] = int.Parse(Console.ReadLine());
             }
 
-            Console.WriteLine(OptionsManager.CountLess100(arr));
-            Console.WriteLine(OptionsManager.MaxNum(arr));
+            Console.WriteLine("count="+OptionsManager.CountLess100(arr));
+            Console.WriteLine("max="+OptionsManager.MaxNum(arr));
+            OptionsManager.PrintEvens(arr);
+            Console.WriteLine("sumEvens="+OptionsManager.SumEvens(arr));
+            Console.WriteLine("countEvens="+OptionsManager.CountEvens(arr));
             arr=OptionsManager.ReverseArr(arr);
             OptionsManager.PrintArr(arr);
 
-            arr = OptionsManager.SortArr(arr);
+
+            /*arr = OptionsManager.SortArr(arr);
             OptionsManager.PrintArr(arr);
-
-            OptionsManager.PrintEvens(arr);
-
-            Console.WriteLine(OptionsManager.CountEvens(arr));
-
             OptionsManager.PrintOdds(arr);
-            OptionsManager.PrintArr(arr);
+            OptionsManager.PrintArr(arr);*/
 
 
 
