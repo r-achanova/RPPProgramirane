@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace RemoveNum
 {
@@ -6,7 +8,12 @@ namespace RemoveNum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            List<int> nums = Console.ReadLine().Split(" ").Select(int.Parse).ToList();
+            var last = nums[nums.Count - 1];
+            //nums.Remove(last);
+            nums.RemoveAll(x => x == last);
+            Console.WriteLine(string.Join(" ", nums));
+
+        } 
     }
 }
