@@ -17,14 +17,24 @@ namespace ListManipulation
                 {
                     break;
                 }
+                int index = 0;
                 switch (command)
                 {
-                    case "add": var index = int.Parse(input[1]);
+                    case "add": 
+                        index = int.Parse(input[1]);
                         var element = int.Parse(input[2]);
                         nums.Insert(index, element);
                         break;
                     case "addMany":
-                        Console.WriteLine(command);
+
+                        index = int.Parse(input[1]);
+                        for (int i = input.Length-1; i > 1; i--)
+                        {
+                            element = int.Parse(input[i]);
+                            nums.Insert(index, element);
+                        }
+
+
                         break;
                     case "contains":
                         break;
