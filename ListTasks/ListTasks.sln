@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveNonPositiveNums", "Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeLists", "MergeLists\MergeLists.csproj", "{F012BF1C-F75C-4597-BCE1-B42BE76F2683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareNums", "SquareNums\SquareNums.csproj", "{B2DD07BB-9AE3-443A-9339-411840E76559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquareNums", "SquareNums\SquareNums.csproj", "{B2DD07BB-9AE3-443A-9339-411840E76559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListManipulation", "ListManipulation\ListManipulation.csproj", "{0A4D251A-C06E-46F9-AC00-514D963AC9C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B2DD07BB-9AE3-443A-9339-411840E76559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2DD07BB-9AE3-443A-9339-411840E76559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2DD07BB-9AE3-443A-9339-411840E76559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4D251A-C06E-46F9-AC00-514D963AC9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4D251A-C06E-46F9-AC00-514D963AC9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4D251A-C06E-46F9-AC00-514D963AC9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4D251A-C06E-46F9-AC00-514D963AC9C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
